@@ -16,6 +16,9 @@
     <Filter Include="メイン">
       <UniqueIdentifier>{392ff1b7-8491-447a-b0b5-ebf74d71e47a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ステージ">
+      <UniqueIdentifier>{c1458ff1-5e0c-4e2f-a4ca-ba984dacbcf2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SourceFiles\scene.h">
@@ -36,6 +39,9 @@
     <ClInclude Include="SourceFiles\main.h">
       <Filter>メイン</Filter>
     </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>ステージ</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SourceFiles\scene_debug.cpp">
@@ -52,6 +58,9 @@
     </ClCompile>
     <ClCompile Include="SourceFiles\main.cpp">
       <Filter>メイン</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>ステージ</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
